@@ -3,10 +3,10 @@ import io
 import os
 from fastapi import FastAPI, UploadFile, File, Form
 from pydantic import BaseModel
-from backend.agents.topic_agent import TopicAgent
-from backend.agents.question_agent import QuestionAgent
-from backend.agents.validator_agent import ValidatorAgent
-from backend.agents.compiler_agent import CompilerAgent
+from agents.topic_agent import TopicAgent
+from agents.question_agent import QuestionAgent
+from agents.validator_agent import ValidatorAgent
+from agents.compiler_agent import CompilerAgent
 from fastapi.middleware.cors import CORSMiddleware
 
 from dotenv import load_dotenv
