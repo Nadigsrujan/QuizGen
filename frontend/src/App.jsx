@@ -10,7 +10,7 @@ export default function App() {
   const [selectedAnswers, setSelectedAnswers] = useState({});
   const [quizStarted, setQuizStarted] = useState(false);
 
-  const API_URL = "http://127.0.0.1:8000";
+  const API_URL = "https://quizgen-vff1.onrender.com";
 
   const generateQuiz = async () => {
     if (!subject) {
